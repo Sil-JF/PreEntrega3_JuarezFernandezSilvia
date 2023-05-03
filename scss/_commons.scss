@@ -117,15 +117,18 @@
     margin-top: 100px;
     background: rgba(248, 219, 215, 1);
     background-image: url(/img/fondoHomeGarabatos.png);
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
+
 }
-.presents {
-    position: relative;
-}
+// .presents {
+//     position: relative;
+// }
+
+
 .button {
 background-color:  rgb(219, 75, 56);
 color: white;
