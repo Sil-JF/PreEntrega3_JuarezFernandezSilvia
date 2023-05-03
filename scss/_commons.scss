@@ -1,0 +1,292 @@
+// Cabeceras
+
+.cabecera {
+    background-image: url(/img/hero\ banner\ texto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.backgoundButton {
+    position: absolute;
+    top: 93%;
+    left: 40%;
+    background-color: rgba(248, 219, 215, 1);
+    height: 70px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.busqueda {
+    height: 45px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
+}
+.busqueda::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+// TextCenter
+
+.text-center {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+// Cards
+
+.introduccion{
+    width: 100%;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.containerCards{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.card {
+    margin-left: 30px;
+    height: 350px;
+    width: 235px;
+    box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.29);
+    -webkit-box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.29);
+}
+
+.card1 {
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+}
+.card2 {
+    background-color: white;
+    width: 98%;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.calification {
+    margin-left: 4%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cardImagen {
+    height: 220px;
+    width: 215px;
+}
+.pricesHome {
+    margin-left: 4%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5%;
+    color: rgb(219, 75, 56);
+}
+.tituloCard {
+    position: absolute;
+    left: 6%;
+    bottom: 8%;
+    color: white;
+    font-size: 25px;
+}
+
+
+// Banners
+
+.container1 {
+    margin-top: 100px;
+    background: rgba(248, 219, 215, 1);
+    background-image: url(/img/fondoHomeGarabatos.png);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.presents {
+    position: relative;
+}
+.button {
+background-color:  rgb(219, 75, 56);
+color: white;
+width: 250px;
+height: 32px;
+border-radius: 15px;
+font-size: 16px;
+margin-top: 50px;
+position: absolute;
+right: 1%;
+border: none;
+}
+
+.invite, .presents {
+    height: 700px;
+    width: 700px;
+    margin-top: 25px;
+}
+
+
+.tituloSection {
+    font-size: 45px;
+    line-height: 47px;
+    color: black;
+    margin-bottom: 25px;
+}
+.colorText1 {
+    color: rgb(219, 75, 56);
+}
+
+.parrafoSection {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+}
+.tituloSection1 {
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+
+
+
+// Steps
+
+.marginTopSection {
+    margin-top: 50px;
+}
+
+.containerPasos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.pasos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.box {
+    height: 100px;
+    width: 220px;
+    background-color: rgba(248, 219, 215, 1);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.15);
+-webkit-box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.15);
+    margin: 35px;
+
+}
+
+.number {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(219, 75, 56);
+
+}
+
+.parrafoSection1{
+    font-size: 20px;
+
+}
+
+//Footer
+
+.titulosFooter {
+    font-size: $textL;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.titulosFooter:hover {
+    color:  rgb(219, 75, 56);
+ }
+
+.listasPeso {
+    font-size: $textM;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 219, 215, 1);
+}
+
+.imagenFooter {
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+.copyright {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+// Others styles
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.imagenSize {
+    width: auto;
+    height: 350px;
+    
+}
+
+.tituloSection2 {
+    font-size: 45px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+
+.imagenContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+// saludo
+.saludoHome {
+    font-size: 36px;
+}

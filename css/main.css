@@ -1,0 +1,1065 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.dropPerfil {
+  background-color: #212529;
+  border: none;
+}
+
+.dropPerfilUl, .dropdown-menu {
+  background-color: #212529;
+}
+.dropPerfilUl .drops, .dropPerfilUl .dropdown-item, .dropdown-menu .drops, .dropdown-menu .dropdown-item {
+  color: white;
+}
+.dropPerfilUl .drops:hover, .dropPerfilUl .dropdown-item:hover, .dropdown-menu .drops:hover, .dropdown-menu .dropdown-item:hover {
+  background-color: white;
+  color: crimson;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: crimson;
+}
+
+.nav-item:active {
+  color: crimson;
+}
+
+.carrito {
+  background-color: #212529;
+  color: white;
+}
+.carrito:hover {
+  color: crimson;
+}
+
+.cabecera {
+  background-image: url(/img/hero\ banner\ texto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.backgoundButton {
+  position: absolute;
+  top: 93%;
+  left: 40%;
+  background-color: rgb(248, 219, 215);
+  height: 70px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.busqueda {
+  height: 45px;
+  width: 350px;
+  border: none;
+  border-radius: 15px;
+}
+
+.busqueda::placeholder {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-center {
+  font-size: 30px;
+  text-align: center;
+}
+
+.introduccion {
+  width: 100%;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.containerCards {
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 25px 0;
+}
+
+.card {
+  margin-left: 30px;
+  height: 350px;
+  width: 235px;
+  box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+}
+
+.card1 {
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.card2 {
+  background-color: white;
+  width: 98%;
+  height: 50px;
+  margin-top: -15px;
+}
+
+.calification {
+  margin-left: 4%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cardImagen {
+  height: 220px;
+  width: 215px;
+}
+
+.pricesHome {
+  margin-left: 4%;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5%;
+  color: rgb(219, 75, 56);
+}
+
+.tituloCard {
+  position: absolute;
+  left: 6%;
+  bottom: 8%;
+  color: white;
+  font-size: 25px;
+}
+
+.container1 {
+  margin-top: 100px;
+  background: rgb(248, 219, 215);
+  background-image: url(/img/fondoHomeGarabatos.png);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.presents {
+  position: relative;
+}
+
+.button {
+  background-color: rgb(219, 75, 56);
+  color: white;
+  width: 250px;
+  height: 32px;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 50px;
+  position: absolute;
+  right: 1%;
+  border: none;
+}
+
+.invite, .presents {
+  height: 700px;
+  width: 700px;
+  margin-top: 25px;
+}
+
+.tituloSection {
+  font-size: 45px;
+  line-height: 47px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.colorText1 {
+  color: rgb(219, 75, 56);
+}
+
+.parrafoSection {
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.tituloSection1 {
+  font-size: 35px;
+  line-height: 38px;
+  margin-bottom: 25px;
+}
+
+.marginTopSection {
+  margin-top: 50px;
+}
+
+.containerPasos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pasos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  height: 100px;
+  width: 220px;
+  background-color: rgb(248, 219, 215);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.15);
+  margin: 35px;
+}
+
+.number {
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(219, 75, 56);
+}
+
+.parrafoSection1 {
+  font-size: 20px;
+}
+
+.titulosFooter {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.titulosFooter:hover {
+  color: rgb(219, 75, 56);
+}
+
+.listasPeso {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 219, 215);
+}
+
+.imagenFooter {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.imagenSize {
+  width: auto;
+  height: 350px;
+}
+
+.tituloSection2 {
+  font-size: 45px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.imagenContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.saludoHome {
+  font-size: 36px;
+}
+
+.containerQS {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 55px;
+}
+.containerQS img {
+  width: 100%;
+}
+.containerQS p {
+  font-size: 24px;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.containerQS h1 {
+  font-size: 36px;
+  margin-left: 30px;
+  margin-top: 35px;
+  animation: titulo 2.5s infinite;
+}
+
+@keyframes titulo {
+  0% {
+    color: crimson;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: #4d1919;
+  }
+  75% {
+    color: rgb(160, 41, 11);
+  }
+  100% {
+    color: crimson;
+  }
+}
+.containerRegalos1 {
+  display: flex;
+  justify-content: center;
+}
+
+.invite, .presents {
+  margin-top: 150px;
+}
+
+.tituloSection {
+  font-weight: 700;
+}
+
+.parrafoSectionFormato {
+  font-size: 20px;
+}
+
+.headGastronomia {
+  background-image: url(/img/gastroHead.png);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textoHeadGastro {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* filtros */
+.filtrosG {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgb(248, 248, 248);
+  width: 60%;
+  margin-left: 25px;
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  grid-area: filtros;
+}
+
+.form-check-input:checked {
+  background-color: red;
+  border: none;
+}
+
+.tituloFiltros {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.tituloFiltros2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.containerGastronomia {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: repeat(2, 450px);
+  grid-template-areas: "filtros carta1" "filtros carta2";
+}
+
+.firstFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  grid-area: carta1;
+  width: 80%;
+}
+
+.secondFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  grid-area: carta2;
+  width: 80%;
+}
+
+.carta {
+  width: 100%;
+  display: grid;
+  grid-area: carta;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cardG1 {
+  width: 220px;
+  height: 350px;
+  border-radius: 8px;
+  background-color: rgb(248, 248, 248);
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.cardG1 img {
+  width: 100%;
+}
+
+.cardG1 figcaption {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cardG1 p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.cardG1 button {
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cardG1 button:hover {
+  background-color: white;
+  color: black;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-area: cinco;
+}
+
+.card6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-area: seis;
+}
+
+.card7 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-area: siete;
+}
+
+.card8 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-area: ocho;
+}
+
+.containerSurpriser {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../img/surpriserHead.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: space-between;
+}
+
+.tituloSurpriser {
+  font-size: 45px;
+  color: white;
+  padding: 35px;
+}
+
+.parrafoSurpriser {
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+  padding: 35px;
+}
+
+.containerForm {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(248, 219, 215);
+  border-radius: 15px;
+  display: flex;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+}
+
+.placeholderSurpriser {
+  font-size: 10px;
+  border-radius: 15px;
+  width: 450px;
+  height: 42px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.buttonSupriser {
+  background-color: rgb(219, 75, 56);
+  color: white;
+  width: 250px;
+  height: 32px;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 50px;
+  border: none;
+}
+
+@media (max-width: 420px) {
+  .cabecera {
+    height: 150px;
+    margin-bottom: 100px;
+  }
+  .backgoundButton {
+    left: 10%;
+    height: 60px;
+    width: 300px;
+  }
+  .busqueda {
+    height: 35px;
+    width: 250px;
+  }
+  .busqueda::placeholder {
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-center {
+    font-size: 20px;
+    text-align: center;
+  }
+  .containerCards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    height: 350px;
+    width: 255px;
+    box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+  }
+  .cardImagen {
+    height: 220px;
+    width: 235px;
+  }
+  .container1 {
+    margin-top: 80px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .presents {
+    position: relative;
+  }
+  .button {
+    left: 16%;
+  }
+  .invite, .presents {
+    height: 700px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .tituloSection {
+    font-size: 32px;
+    line-height: 47px;
+    color: black;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+  .colorText1 {
+    color: rgb(219, 75, 56);
+  }
+  .parrafoSection {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .tituloSection1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  .marginTopSection {
+    margin-top: 30px;
+  }
+  .containerPasos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pasos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+    margin: 35px 0;
+  }
+  .box1, .box3 {
+    margin-left: -5px;
+  }
+  .box2 {
+    margin-left: 50px;
+  }
+  .number {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(219, 75, 56);
+  }
+  .parrafoSection1 {
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+  }
+  .titleSteps {
+    font-size: 24px;
+  }
+  .containerMobile {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+  }
+  .footerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .titulosFooter {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 10px 10px 20px;
+  }
+  .quienesSomos {
+    width: 150px;
+  }
+  .titulosFooter:hover {
+    color: rgb(219, 75, 56);
+  }
+  .listasPeso {
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0px 10px 0px 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .imagenSize {
+    width: 50%;
+    height: max-content;
+  }
+  .tituloSection2 {
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .imagenContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .saludoHome {
+    font-size: 24px;
+    width: 80%;
+    margin-left: -45px;
+  }
+  .navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    filter: invert(1);
+  }
+  .containerQS {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .containerQS .imagenQS {
+    width: 100%;
+  }
+  .containerQS .parrafoQS {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+  .containerQS .textoQS {
+    font-size: 36px;
+    margin-left: 5px;
+    margin-top: 35px;
+    animation: titulo 2.5s infinite;
+  }
+  .parrafoSectionFormato {
+    margin-top: -105px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
+  }
+  .headGastronomia {
+    background-image: url(/img/gastroHead.png);
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*.filtrosG, .filtrosGastronomia {
+      visibility: collapse;
+  }*/
+  .filtrosG {
+    display: none;
+  }
+  .containerGastronomia {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 1000px;
+  }
+  .carta {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-left: 80px;
+  }
+  .firstFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-area: carta1;
+    width: 60%;
+  }
+  .secondFour {
+    display: none;
+  }
+  .containerForm {
+    height: 300px;
+    width: 80px;
+  }
+  .placeholderSurpriser {
+    width: 330px;
+  }
+  .buttonSupriser {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 780px) {
+  .cabecera {
+    height: 150px;
+    margin-bottom: 100px;
+  }
+  .backgoundButton {
+    left: 30%;
+    height: 60px;
+    width: 300px;
+  }
+  .busqueda {
+    height: 35px;
+    width: 250px;
+  }
+  .busqueda::placeholder {
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-center {
+    font-size: 20px;
+    text-align: center;
+  }
+  .containerCards {
+    flex-direction: row;
+    align-items: center;
+    margin-left: -10px;
+  }
+  .cardImagen {
+    height: 220px;
+    width: 195px;
+  }
+  .container1 {
+    margin-top: 80px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .button {
+    left: 36%;
+  }
+  .tituloSection {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .parrafoSection {
+    margin-left: 32px;
+    text-align: center;
+    width: 90%;
+  }
+  .tituloSection1 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 10px 0 10px 15px;
+    text-align: center;
+  }
+  .marginTopSection {
+    margin-top: 30px;
+  }
+  .containerPasos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pasos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+    margin: 35px 0;
+  }
+  .box1, .box3 {
+    margin-left: -5px;
+  }
+  .box2 {
+    margin-left: 170px;
+  }
+  .number {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(219, 75, 56);
+  }
+  .parrafoSection1 {
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+  }
+  .titleSteps {
+    font-size: 32px;
+    margin-top: 55px;
+    font-weight: 700;
+  }
+  .containerMobile {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+  }
+  .footerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+  }
+  .titulosFooter {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 10px 10px 20px;
+  }
+  .quienesSomos {
+    width: 150px;
+  }
+  .titulosFooter:hover {
+    color: rgb(219, 75, 56);
+  }
+  .listasPeso {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px 10px 0px 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .imagenSize {
+    width: 50%;
+    height: max-content;
+  }
+  .tituloSection2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .imagenContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .saludoHome {
+    font-size: 24px;
+    width: 80%;
+    margin-left: -45px;
+  }
+  .navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    filter: invert(1);
+  }
+  .containerQS {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .containerQS .imagenQS {
+    width: 100%;
+  }
+  .containerQS .parrafoQS {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 12px;
+  }
+  .containerQS .textoQS {
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 35px;
+    animation: titulo 2.5s infinite;
+  }
+  .parrafoSectionFormato {
+    margin-top: -155px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
+  }
+  .headGastronomia {
+    background-image: url(/img/gastroHead.png);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*.filtrosG, .filtrosGastronomia {
+      visibility: collapse;
+  }*/
+  .filtrosG {
+    display: none;
+  }
+  .containerGastronomia {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .firstFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-area: carta1;
+    width: 60%;
+  }
+  .secondFour {
+    display: none;
+  }
+  .card4 {
+    display: none;
+  }
+  .containerForm {
+    height: 300px;
+    width: 280px;
+  }
+  .placeholderSurpriser {
+    width: 230px;
+  }
+  .buttonSupriser {
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
