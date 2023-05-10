@@ -1,6 +1,9 @@
 //Small
 @media (max-width: 420px) {
 
+    body{
+        overflow-x: hidden;
+    }
     .cabecera {
         height: 150px;
         margin-bottom: 100px;
@@ -328,6 +331,10 @@
 
 // Medium
 @media (max-width: 780px) {
+    
+    body{
+        overflow-x: hidden;
+    }
 
     .cabecera {
         height: 150px;

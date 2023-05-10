@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .dropPerfil {
   background-color: #212529;
   border: none;
@@ -587,6 +591,9 @@ a {
 }
 
 @media (max-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
   .cabecera {
     height: 150px;
     margin-bottom: 100px;
@@ -836,6 +843,9 @@ a {
   }
 }
 @media (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+  }
   .cabecera {
     height: 150px;
     margin-bottom: 100px;
