@@ -590,258 +590,6 @@ a {
   border: none;
 }
 
-@media (max-width: 420px) {
-  body {
-    overflow-x: hidden;
-  }
-  .cabecera {
-    height: 150px;
-    margin-bottom: 100px;
-  }
-  .backgoundButton {
-    left: 10%;
-    height: 60px;
-    width: 300px;
-  }
-  .busqueda {
-    height: 35px;
-    width: 250px;
-  }
-  .busqueda::placeholder {
-    font-size: 20px;
-    text-align: center;
-  }
-  .text-center {
-    font-size: 20px;
-    text-align: center;
-  }
-  .containerCards {
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    margin-left: 30px;
-    margin-bottom: 15px;
-    height: 350px;
-    width: 255px;
-    box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
-    -webkit-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
-  }
-  .cardImagen {
-    height: 220px;
-    width: 235px;
-  }
-  .container1 {
-    margin-top: 80px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .presents {
-    position: relative;
-  }
-  .button {
-    left: 16%;
-  }
-  .invite, .presents {
-    height: 700px;
-    width: 100%;
-    margin-top: 25px;
-  }
-  .tituloSection {
-    font-size: 32px;
-    line-height: 47px;
-    color: black;
-    margin-bottom: 15px;
-    margin-left: 15px;
-  }
-  .colorText1 {
-    color: rgb(219, 75, 56);
-  }
-  .parrafoSection {
-    font-size: 20px;
-    line-height: 22px;
-    text-align: center;
-    margin-bottom: 15px;
-    padding: 10px;
-  }
-  .tituloSection1 {
-    font-size: 24px;
-    line-height: 38px;
-    margin-bottom: 15px;
-    margin-left: 5px;
-    text-align: center;
-  }
-  .marginTopSection {
-    margin-top: 30px;
-  }
-  .containerPasos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .pasos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .box {
-    height: 100px;
-    width: 100px;
-    margin: 35px 0;
-  }
-  .box1, .box3 {
-    margin-left: -5px;
-  }
-  .box2 {
-    margin-left: 50px;
-  }
-  .number {
-    font-size: 45px;
-    font-weight: 800;
-    color: rgb(219, 75, 56);
-  }
-  .parrafoSection1 {
-    font-size: 16px;
-    text-align: center;
-    width: 50%;
-  }
-  .titleSteps {
-    font-size: 24px;
-  }
-  .containerMobile {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 500px;
-  }
-  .footerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-  }
-  .titulosFooter {
-    font-size: 12px;
-    font-weight: 600;
-    margin: 0px 10px 10px 20px;
-  }
-  .quienesSomos {
-    width: 150px;
-  }
-  .titulosFooter:hover {
-    color: rgb(219, 75, 56);
-  }
-  .listasPeso {
-    font-size: 9px;
-    font-weight: 400;
-    margin: 0px 10px 0px 20px;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  .imagenSize {
-    width: 50%;
-    height: max-content;
-  }
-  .tituloSection2 {
-    font-size: 32px;
-    margin-top: 35px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-  .imagenContainer {
-    display: flex;
-    flex-direction: row;
-  }
-  .saludoHome {
-    font-size: 24px;
-    width: 80%;
-    margin-left: -45px;
-  }
-  .navbar-toggler-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    filter: invert(1);
-  }
-  .containerQS {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .containerQS .imagenQS {
-    width: 100%;
-  }
-  .containerQS .parrafoQS {
-    font-size: 20px;
-    width: 90%;
-    margin-left: 5px;
-    margin-top: 12px;
-  }
-  .containerQS .textoQS {
-    font-size: 36px;
-    margin-left: 5px;
-    margin-top: 35px;
-    animation: titulo 2.5s infinite;
-  }
-  .parrafoSectionFormato {
-    margin-top: -105px;
-    margin-left: 15px;
-    width: 90%;
-    text-align: center;
-  }
-  .headGastronomia {
-    background-image: url(/img/gastroHead.png);
-    height: 50px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /*.filtrosG, .filtrosGastronomia {
-      visibility: collapse;
-  }*/
-  .filtrosG {
-    display: none;
-  }
-  .containerGastronomia {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    margin-bottom: 1000px;
-  }
-  .carta {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    margin-left: 80px;
-  }
-  .firstFour {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    grid-area: carta1;
-    width: 60%;
-  }
-  .secondFour {
-    display: none;
-  }
-  .containerForm {
-    height: 300px;
-    width: 80px;
-  }
-  .placeholderSurpriser {
-    width: 330px;
-  }
-  .buttonSupriser {
-    margin-top: 10px;
-    margin-left: 40px;
-  }
-}
 @media (max-width: 780px) {
   body {
     overflow-x: hidden;
@@ -1069,6 +817,300 @@ a {
   .buttonSupriser {
     margin-top: 10px;
     margin-left: -10px;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cabecera {
+    height: 130px;
+    margin-bottom: 100px;
+  }
+  .backgoundButton {
+    left: 10%;
+    height: 60px;
+    width: 270px;
+  }
+  .busqueda {
+    height: 35px;
+    width: 230px;
+  }
+  .busqueda::placeholder {
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-center {
+    font-size: 20px;
+    text-align: center;
+  }
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    height: 350px;
+    width: 255px;
+    box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 8px 19px 0px rgba(0, 0, 0, 0.29);
+  }
+  .cardImagen {
+    height: 220px;
+    width: 235px;
+  }
+  .container1 {
+    margin-top: 80px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .presents {
+    position: relative;
+  }
+  .button {
+    left: 11%;
+  }
+  .invite, .presents {
+    height: 700px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .tituloSection {
+    font-size: 32px;
+    line-height: 47px;
+    color: black;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+  .colorText1 {
+    color: rgb(219, 75, 56);
+  }
+  .parrafoSection {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .tituloSection1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  .marginTopSection {
+    margin-top: 30px;
+  }
+  .containerPasos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pasos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .box {
+    height: 100px;
+    width: 100px;
+    margin: 35px 0;
+  }
+  .box1, .box3 {
+    margin-left: -5px;
+  }
+  .box2 {
+    margin-left: 50px;
+  }
+  .number {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(219, 75, 56);
+  }
+  .parrafoSection1 {
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+  }
+  .titleSteps {
+    font-size: 24px;
+  }
+  .containerMobile {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+  }
+  .footerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .titulosFooter {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 10px 10px 20px;
+  }
+  .quienesSomos {
+    width: 150px;
+  }
+  .titulosFooter:hover {
+    color: rgb(219, 75, 56);
+  }
+  .listasPeso {
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0px 10px 0px 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .imagenSize {
+    width: 50%;
+    height: max-content;
+  }
+  .tituloSection2 {
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .imagenContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .saludoHome {
+    font-size: 24px;
+    width: 80%;
+    margin-left: -45px;
+  }
+  .navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    filter: invert(1);
+  }
+  .containerQS {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .containerQS .imagenQS {
+    width: 100%;
+  }
+  .containerQS .parrafoQS {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+  .containerQS .textoQS {
+    font-size: 36px;
+    margin-left: 5px;
+    margin-top: 35px;
+    animation: titulo 2.5s infinite;
+  }
+  .parrafoSectionFormato {
+    margin-top: -105px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
+  }
+  .headGastronomia {
+    background-image: url(/img/gastroHead.png);
+    height: 80px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*.filtrosG, .filtrosGastronomia {
+      visibility: collapse;
+  }*/
+  .filtrosG {
+    display: none;
+  }
+  .containerGastronomia {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-bottom: 1000px;
+  }
+  .carta {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-left: 80px;
+  }
+  .firstFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-area: carta1;
+    width: 60%;
+  }
+  .secondFour {
+    display: none;
+  }
+  .containerForm {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(248, 219, 215);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px 5px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 8px;
+  }
+  .placeholderSurpriser {
+    font-size: 14px;
+    border-radius: 15px;
+    width: 280px;
+    height: 42px;
+    margin-bottom: 15px;
+    border: none;
+    text-align: center;
+  }
+  .buttonSupriser {
+    background-color: rgb(219, 75, 56);
+    color: white;
+    width: 250px;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 50px;
+    border: none;
+  }
+  .containerRegalos1 {
+    height: 500px;
+  }
+  .containerError {
+    height: 500px;
+    width: 320px;
+    position: relative;
+  }
+  .titulo404 {
+    font-size: 20px;
+    color: crimson;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -92px;
+  }
+  .btn404 {
+    margin-top: 250px;
+    margin-left: 45px;
   }
 }
 * {
