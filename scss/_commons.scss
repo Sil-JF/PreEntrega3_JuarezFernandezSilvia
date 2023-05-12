@@ -72,6 +72,54 @@
     -moz-box-shadow: -1px 8px 19px 0px rgba(0,0,0,0.29);
 }
 
+//animacion card
+
+.card:hover{
+    animation: growup 3s infinite;
+    
+}
+
+.pricesHome {
+    animation: rotates 1s infinite;
+}
+
+.backgoundButton {
+    animation: movement 5s infinite;
+}
+
+@keyframes movement {
+    50%{
+        transform: translate(5px);
+    }
+    100% {
+        transform: translate(-5px);
+    }
+
+}
+
+@keyframes growup {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+    
+}
+
+@keyframes rotates {
+    50% {
+      transform: rotate(5deg);  
+    }
+    
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
 .card1 {
     margin-bottom: 25px;
     padding: 10px;
