@@ -26,8 +26,8 @@ El desafío más grande para mí en este proyecto fue generar un correcto respon
 - BOOTSTRAP
 
 ### Links 🔁
-- Deployment GitHub Pages:
-- Deployment Netlify: 
+- Deployment GitHub Pages: https://sil-jf.github.io/ProyectoFinal_JuarezFernandezSilvia/
+- Deployment Netlify: https://proyectofinaldw-silviajuarezfernandez.netlify.app/
 
 
 ## ¡Gracias por su atención! ☺
