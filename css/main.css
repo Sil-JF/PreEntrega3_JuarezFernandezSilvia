@@ -1158,7 +1158,7 @@ a {
 }
 
 .containerError {
-  background-image: url(../img/404.png);
+  background-image: url(../img/404.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
